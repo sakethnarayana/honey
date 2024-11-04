@@ -31,7 +31,7 @@ const Iteminfo = ({ product }) => {
         const userId = localStorage.getItem('userId') || `user_${Math.random().toString(36).substr(2, 9)}`; // Generate user ID if not found
 
         try {
-            await axios.post('http://localhost:3001/cart/add', {
+            await axios.post('/cart/add', {
                 userId,
                 items: storedCart,
             });
@@ -59,7 +59,7 @@ const Iteminfo = ({ product }) => {
         };
     
         try {
-            const response = await axios.post('http://localhost:3001/wishlist/add', {
+            const response = await axios.post('/wishlist/add', {
                 userId,
                 item
             }, {

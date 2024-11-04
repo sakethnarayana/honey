@@ -14,6 +14,9 @@ mongoose.connect("mongodb+srv://tapasyareddy2505:iGWWfMTHxrIXqOdi@cluster0.engfg
   .then(() => console.log("MongoDB connected successfully."))
   .catch(err => console.error("MongoDB connection error:", err));
 
+  const buildPath = path.join(__dirname, '.', 'public', 'build');
+  app.use(express.static(path.join(buildPath)));
+
 // Enable CORS for all routes
 app.use(cors({
     origin: 'http://localhost:3002', // Allow requests from this origin

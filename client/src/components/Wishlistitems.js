@@ -14,7 +14,7 @@ const Wishlistitems = () => {
         const fetchWishlist = async () => {
             const userId = localStorage.getItem('userId');
             try {
-                const response = await axios.get(`http://localhost:3001/wishlist/${userId}`);
+                const response = await axios.get(`/wishlist/${userId}`);
                 setWishlist(response.data.wishlist); // Ensure response.data.wishlist is defined
             } catch (error) {
                 console.error("Error fetching wishlist:", error);
@@ -42,7 +42,7 @@ const Wishlistitems = () => {
     const removeFromWishlist = async (itemId) => {
         try {
             // Make an API call to remove the item from the wishlist in the database
-            await axios.delete(`http://localhost:3001/wishlist/${userId}/${itemId}`);
+            await axios.delete(`/wishlist/${userId}/${itemId}`);
             console.log('Rrmeoved reached');
             
             // Remove the item locally after a successful delete
