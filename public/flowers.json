@@ -1,0 +1,61 @@
+[ 
+    
+{ "id": 1, "name": "begonia", "description": "Flower parts are usually arranged in whorls, or cycles, but can also be arranged spirally. The four common whorls are the calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (pistils)", 
+"price": "20",
+"image":"begonia.webp" },
+
+{ "id": 2, "name": "dahlia", "description": "Flower parts are usually arranged in whorls, or cycles, but can also be arranged spirally. The four common whorls are the calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (pistils)", 
+"price": "30",
+"image":"dahlia.jpg" },
+
+{ "id": 3, "name": "hyacinth", "description": "Flower parts are usually arranged in whorls, or cycles, but can also be arranged spirally. The four common whorls are the calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (pistils)", 
+"price": "20",
+"image":"hyacinth.jpg" },
+
+{ "id": 4, "name": "hydrangea", "description": "Flower parts are usually arranged in whorls, or cycles, but can also be arranged spirally. The four common whorls are the calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (pistils)", 
+"price": "30",
+"image":"hydrangea.jpg" },
+
+{ "id": 5, "name": "lavender", "description": "Flower parts are usually arranged in whorls, or cycles, but can also be arranged spirally. The four common whorls are the calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (pistils)", 
+"price": "10",
+"image":"lavender.jpg" },
+
+{ "id": 6, "name": "lilies", "description": "Flower parts are usually arranged in whorls, or cycles, but can also be arranged spirally. The four common whorls are the calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (pistils)", 
+"price": "20",
+"image":"lilies.webp" },
+
+{ "id": 7, "name": "lotus", "description": "Flower parts are usually arranged in whorls, or cycles, but can also be arranged spirally. The four common whorls are the calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (pistils)", 
+"price": "30",
+"image":"lotus.jpg" },
+
+{ "id": 8, "name": "marigold", "description": "Flower parts are usually arranged in whorls, or cycles, but can also be arranged spirally. The four common whorls are the calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (pistils)", 
+"price": "30",
+"image":"marigold.jpg" },
+
+{ "id": 9, "name": "orchids", "description": "Flower parts are usually arranged in whorls, or cycles, but can also be arranged spirally. The four common whorls are the calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (pistils)", 
+"price": "20",
+"image":"orchids.jpg" },
+
+{ "id": 10, "name": "peonies", "description": "Flower parts are usually arranged in whorls, or cycles, but can also be arranged spirally. The four common whorls are the calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (pistils)", 
+"price": "30",
+"image":"peonies.jpg" },
+
+{ "id": 11, "name": "roses", "description": "Flower parts are usually arranged in whorls, or cycles, but can also be arranged spirally. The four common whorls are the calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (pistils)", 
+"price": "30",
+"image":"roses.avif" },
+
+{ "id": 12, "name": "sunflower", "description": "Flower parts are usually arranged in whorls, or cycles, but can also be arranged spirally. The four common whorls are the calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (pistils)", 
+"price": "20",
+"image":"sunflower.jpg" },
+
+{ "id": 13, "name": "tulip", "description": "Flower parts are usually arranged in whorls, or cycles, but can also be arranged spirally. The four common whorls are the calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (pistils)", 
+"price": "10",
+"image":"tulip.webp" },
+
+{ "id": 14, "name": "zinnia", "description": "Flower parts are usually arranged in whorls, or cycles, but can also be arranged spirally. The four common whorls are the calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (pistils)", 
+"price": "30",
+"image":"zinnia.jpg" }
+
+
+
+]

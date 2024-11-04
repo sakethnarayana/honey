@@ -1,0 +1,27 @@
+/* Custom background and text styling for the navbar */
+.navbar-bg {
+   background-color:#FD7272;
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif; /* Custom font for brand */
+    font-weight: 700;
+    text-transform: uppercase; /* Uppercase for a bold look */
+    letter-spacing: 1px;
+}
+
+.btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: #2575fc; /* Matching the gradient's second color */
+}
+
+/* Adding some hover effects for the brand link */
+.navbar-brand:hover {
+    color: #f8f9fa;
+    text-decoration: underline;
+}
