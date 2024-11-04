@@ -10,7 +10,7 @@ const http = require('http').Server(app);
 const mongoose = require("mongoose");
 
 // MongoDB connection
-mongoose.connect("atlas cluster link", { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("mongodb+srv://tapasyareddy2505:iGWWfMTHxrIXqOdi@cluster0.engfg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log("MongoDB connected successfully."))
   .catch(err => console.error("MongoDB connection error:", err));
 
